@@ -4,3 +4,56 @@
 
 }
 
+.profile_container {
+   width: 280px;
+   border: 2px solid #000000;
+   border-radius: 3%;
+   overflow: hidden;
+}
+.profile_img_thumb {
+   padding: 16px;
+   border-bottom: 2px solid grey;
+}
+
+.profile_img {
+   border-radius: 50%;
+   background-color: rgb(47, 47, 55);
+}
+
+.profile_name {
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.profile_top_text {
+   color: #a9a9a9;
+}
+
+.profile_top_text + .profile_top_text {
+   margin-top: 8px;
+}
+
+.profile_list {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 0;
+   background-color: #bbbaba;
+}
+
+.profile_list_item {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   align-items: center;
+   padding: 10px;
+   border-right: 2px solid #808080;
+}
+
+.profile_list_item:last-child {
+   border: 0;
+}
+
+.profile_list_text {
+   font-weight: 700;
+}
