@@ -1,8 +1,5 @@
 import css from './Profile.module.css';
 
-console.log(css);
-
-
  export default function Profile ({name:username, tag, location, image:avatar, stats: {followers, views, likes}}) {
   
    return <div className={css.profile_container}>

@@ -1,0 +1,33 @@
+.table {
+    margin: 15px 0 0;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 505px;
+    border-spacing: 0;
+}
+
+.table td {
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.table_head th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    background-color: rgb(47, 47, 55);
+    color: rgb(254, 254, 254);
+}
+
+.table_body tr:nth-child(2n) {
+    background-color: rgb(187, 186, 186);
+}
+
+.table .table_type_col {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.table_type_col::first-letter {
+    text-transform: uppercase;
+}

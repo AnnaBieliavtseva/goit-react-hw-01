@@ -1,7 +1,7 @@
 .friend_list {
     margin: 15px 0 0;
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .friend_item {

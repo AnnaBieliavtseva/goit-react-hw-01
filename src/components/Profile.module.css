@@ -1,18 +1,12 @@
-.title {
-   color: red;
-   font-size: 45px;
-
-}
-
 .profile_container {
-   width: 280px;
-   border: 2px solid #000000;
+   width: 300px;
+   border: 2px solid rgb(0, 0, 0);
    border-radius: 3%;
    overflow: hidden;
 }
 .profile_img_thumb {
    padding: 16px;
-   border-bottom: 2px solid grey;
+   border-bottom: 2px solid rgb(128, 128, 128);
 }
 
 .profile_img {
@@ -38,7 +32,7 @@
    align-items: center;
    justify-content: space-around;
    margin: 0;
-   background-color: #bbbaba;
+   background-color: rgb(187, 186, 186);
 }
 
 .profile_list_item {
@@ -47,7 +41,7 @@
    flex: 1;
    align-items: center;
    padding: 10px;
-   border-right: 2px solid #808080;
+   border-right: 2px solid rgb(128, 128, 128);
 }
 
 .profile_list_item:last-child {
